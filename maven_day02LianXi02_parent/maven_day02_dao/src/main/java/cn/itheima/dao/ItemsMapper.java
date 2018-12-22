@@ -26,4 +26,10 @@ public interface ItemsMapper {
      */
     void save(Items items);
 
+    /*
+    * 查询所有
+    * */
+    List<Items> findAll2();
+
+
 }
