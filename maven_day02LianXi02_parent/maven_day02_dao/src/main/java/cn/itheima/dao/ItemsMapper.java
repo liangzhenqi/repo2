@@ -28,6 +28,7 @@ public interface ItemsMapper {
 
     /*
     * 查询所有
+    * 韩呸峰大傻吊
     * */
     List<Items> findAll2();
 
