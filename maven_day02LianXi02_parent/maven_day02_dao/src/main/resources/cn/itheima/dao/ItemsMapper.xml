@@ -8,4 +8,12 @@
     <select id="findById" parameterType="int" resultMap="items">
         select * from items where id= #{id};
     </select>
+
+    <select id="findAll" resultType="items">
+        select * from items
+    </select>
+
+    <select id="save" parameterType="items">
+        INSERT INTO items values(#{id},#{name},#{price},#{pic},#{createtime},#{detail});
+    </select>
 </mapper>
