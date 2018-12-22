@@ -28,8 +28,7 @@ public interface ItemsMapper {
 
     /*
     * 查询所有
-    * 韩呸峰大傻吊
-    * 韩呸峰说楼上说的对
+    * 万年涛是二笔
     * */
     List<Items> findAll2();
 
