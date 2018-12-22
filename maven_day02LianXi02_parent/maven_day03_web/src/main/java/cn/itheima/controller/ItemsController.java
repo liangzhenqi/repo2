@@ -18,6 +18,7 @@ public class ItemsController {
     @RequestMapping("/showitems")
     public String findById(Model model){
         System.out.println("双击666");
+        System.out.println("万年套");
         Items items = is.findById(1);
         model.addAttribute("item",items);
         return "itemDetail";
