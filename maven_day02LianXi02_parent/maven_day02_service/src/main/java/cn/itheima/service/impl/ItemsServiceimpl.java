@@ -6,6 +6,8 @@ import cn.itheima.service.ItemsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("itemsservice")
 public class ItemsServiceimpl implements ItemsService {
     @Autowired
@@ -13,4 +15,14 @@ public class ItemsServiceimpl implements ItemsService {
     public Items findById(Integer id) {
         return itemsdao.findById(id);
     }
+
+    /**
+     * 查询所有
+     * @return
+     */
+    public List<Items> findAll() {
+        return itemsdao.findAll();
+    }
+
+
 }

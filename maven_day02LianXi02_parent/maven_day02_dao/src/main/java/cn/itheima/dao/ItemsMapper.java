@@ -1,7 +1,6 @@
 package cn.itheima.dao;
 
 import cn.itheima.pojo.Items;
-import com.sun.scenario.effect.impl.state.LinearConvolveRenderState;
 
 import java.util.List;
 
