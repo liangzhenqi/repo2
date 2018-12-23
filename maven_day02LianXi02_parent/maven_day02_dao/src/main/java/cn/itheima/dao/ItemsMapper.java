@@ -4,6 +4,7 @@ import cn.itheima.pojo.Items;
 
 import java.util.List;
 
+
 public interface ItemsMapper {
 
     /**
@@ -30,6 +31,13 @@ public interface ItemsMapper {
     * 万年涛是二笔
     * */
     List<Items> findAll2();
-
-
+    /**sad
+     * aslkdhjflaisdskgjasdf
+     * asdfsadffasdfda
+     *
+     *
+     * /
+     *
+     }
+     ///*/
 }
